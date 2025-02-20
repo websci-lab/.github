@@ -1,0 +1,47 @@
+name: Bug report
+description: Create a report to help us improve
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: Please describe the bug you encountered
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to reproduce
+      description: Please describe how to reproduce the bug
+    validations:
+      required: false
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Please describe what you expected to happen
+    validations:
+      required: false
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: Please describe what actually happened
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Please describe the environment where the bug occurred
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the bug here
+    validations:
+      required: false
